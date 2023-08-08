@@ -18,6 +18,7 @@ oc new-project service-telemetry
 <br>
 **Creating an OperatorGroup**<br>
 Create an OperatorGroup in the namespace so that you can schedule the Operator pods.
+
 ```
 oc create -f - <<EOF
 > apiVersion: operators.coreos.com/v1
